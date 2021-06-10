@@ -1,59 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ashwin's Fake Blog</title>
-    </head>
-    <body>
-        <h1>Michael Jordan</h1>
-        <img src="Image.jpeg" alt="Image not found!">
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur excepturi ipsum totam eaque reprehenderit perferendis eos nesciunt vel sint! Magni veniam, aliquid temporibus rerum eaque vel cumque incidunt illum nulla.</p>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashwin's Fake Blog</title>
+  </head>
+  <body>
+    <h1>Michael Jordan</h1>
+    <img src="Image.jpeg" alt="Image not found!" />
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+        excepturi ipsum totam eaque reprehenderit perferendis eos nesciunt vel
+        sint! Magni veniam, aliquid temporibus rerum eaque vel cumque incidunt
+        illum nulla.
+      </p>
+    </div>
     <table>
-        <thead>
-            <tr>
-                <th>Year</th>
-                <th>PPG</th>
-                <th>MVP</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1990-91</td>
-                
-            </tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-            <tr></tr>
-        </tbody>
-        
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>PPG</th>
+          <th>MVP</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1990-91</td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+      </tbody>
     </table>
-
+    <!--Ordered list-->
     <p>Unordered List</p>
     <ul>
-        <li>Chicago</li>
-        <li>Bulls</li>
-        <li>THE GOAT</li>
+      <li>Chicago</li>
+      <li>Bulls</li>
+      <li>THE GOAT</li>
     </ul>
-    <a href="https://www.youtube.com/watch?v=LAr6oAKieHk">Awesome Highlight Video!</a>
+    <a href="https://www.youtube.com/watch?v=LAr6oAKieHk"
+      >Awesome Highlight Video!</a
+    >
     <div>
-        <h3>Please take this short survey</h3>
-        <form action="">
-            <label for="email">Email: </label>
-            <input type="text" id="email" name="email">
-            <label for="send_email">Yes, please send me lots of emails</label>
-            <input type="radio" id="send_email" name="send_email">
-            <label for="no_email">No, please do not send me any emails</label>
-            <input type="radio" id="no_email" name="no_email">
-            
-        </form>
+      <h3>Please take this short survey</h3>
+      <form action="">
+        <!--Text box functionality-->
+        <label for="email">Email: </label>
+        <input type="text" id="email" name="email" />
+        <br />
+        <br />
+        <!--Radio Button functionality-->
+        <label for="send_email">Yes, please send me lots of emails</label>
+        <input type="radio" id="send_email" name="send_email" />
+        <label for="no_email">No, please do not send me any emails</label>
+        <input type="radio" id="no_email" name="send_email" />
+        <br />
+        <!--Drop down Functionality-->
+        <p>Select your tshirt size:</p>
+        <select name="Size">
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+          <option value="XL">XL</option>
+        </select>
+        <!--Check box functionality-->
+        <div>
+          <p>How did you hear abour us?</p>
+          <label for="facebook">Facebook</label>
+          <input type="checkbox" id="facebook" name="facebook" />
+          <br />
+          <label for="newspaper">Newspaper</label>
+          <input type="checkbox" id="newspaper" name="newspaper" />
+          <br /> 
+          <label for="Referral">Referral</label>
+          <input type="checkbox" id="Referral" name="Referral" />
+        </div>
+      </form>
     </div>
-
-
-    </body>
+  </body>
 </html>
