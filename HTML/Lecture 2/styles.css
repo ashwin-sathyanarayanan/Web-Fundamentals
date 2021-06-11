@@ -1,0 +1,30 @@
+*{
+    font-family:'Times New Roman', Times, serif
+}
+
+h1{
+    color: brown;
+}
+
+#sub-heading{
+    color: blue;
+}
+img{
+    width: 450px;
+    border: 10px solid grey;
+}
+.place{
+    background-color: black;
+    color: white;
+}
+
+#wrapper{
+    width: 970px;
+    background-color: aqua;
+}
+
+.park{
+    width: 200px;
+    background-color: grey;
+    display: inline-block;
+}
