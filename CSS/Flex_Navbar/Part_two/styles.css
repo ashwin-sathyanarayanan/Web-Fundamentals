@@ -19,6 +19,12 @@
     justify-content: space-around;
 }
 
+.list-item:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    text-underline-position: under;
+}
+
 #img{
     height: 60px;
     margin-right: 80px;
