@@ -1,0 +1,145 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family:'Times New Roman', Times, serif
+}
+
+p,a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper{
+    width: 960px;
+    min-height: 500px;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+#header{
+    display: flex;
+    padding: 10px 10px 10px 20px;
+    height: 40px; 
+    min-width: auto;
+    background-color: whitesmoke;
+}
+
+#header>h3{
+    margin: 8px 0 0 480px;
+}
+
+#main-content{
+    background-image: radial-gradient(circle,#6f5964,#2e1c22);
+    min-height: 850px;
+    padding: 20px;
+}
+
+#top-content{
+    display: flex;
+}
+
+#top-img{
+    height: 250px;
+    width: 380px;
+    border: 10px solid #c0c0c0;
+}
+
+#top-container{
+    margin-left: 50px;
+    height: 270px;
+    width: 465px;
+    background-color: #e1d5e0;
+    font-size: 15px;
+}
+
+.heading-text{
+    padding: 5px;
+    background-image:  linear-gradient(#adacb1,#878693,#adacb1); 
+    color: #ffffff;
+}
+
+#top-container>p{
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+#top-container>a{
+    color: black;
+    padding-left: 8px;
+}
+
+
+#bottom-content{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-col{
+    width: 290px;
+    min-height: 550px;
+    background-image: linear-gradient(to right, #ffffff,#daccd9);
+}
+
+.bottom-img{
+    width: 290px;
+    height: 150px;
+    margin-bottom: 5px;
+}
+
+.bottom-col>p{
+    padding: 0 8px 45px 8px;
+}
+
+.bottom-small-img{
+    margin: 5px 0 0 5px;
+    width: 45px;
+    height: 45px;
+}
+
+.main-button{
+    background-color: #407d61;
+    color: white;
+    display: block;
+    border-radius: 10px;
+    height: 30px;
+    min-width: 70px;
+    box-shadow: 3px 3px #909090;
+    margin: 10px 0 0 100px;
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+.main-button:hover{
+    background-color: white;
+    color: black;
+}
+
+#footer{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.footer-pic{
+    height: 15px;
+}
+
+/* #footer-top{
+    margin: 5px 0 5px 300px;
+}
+
+#footer-bottom{
+    margin: 5px 0 5px 250px;
+} */
+
+.footer-link{
+    color: black;
+    font-style: italic;
+}
