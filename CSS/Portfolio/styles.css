@@ -25,10 +25,11 @@ p,a{
     height: 40px; 
     min-width: auto;
     background-color: whitesmoke;
+    justify-content: space-between;
 }
 
 #header>h3{
-    margin: 8px 0 0 480px;
+    margin-top: 8px;
 }
 
 #main-content{
@@ -39,18 +40,18 @@ p,a{
 
 #top-content{
     display: flex;
+    justify-content: space-around;
 }
 
 #top-img{
     height: 250px;
-    width: 380px;
+    width: 400px;
     border: 7px solid #c0c0c0;
 }
 
 #top-container{
-    margin-left: 50px;
     height: 265px;
-    width: 465px;
+    width: 480px;
     background-image: linear-gradient(to right, #ffffff,#daccd9);
     font-size: 15px;
 }
