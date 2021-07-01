@@ -1,0 +1,40 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 770px;
+    min-height: 700px;
+    border: 1px solid black ;
+}
+
+.function-div{
+    min-height: 100px;
+    border: 1px solid blue ;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.red{
+    color: red;
+}
+
+/* #addClass-p{
+    color: red;
+} */
+
+#img-toggle{
+    background-color: white;
+    height: 30px;
+    display: none;
+}
+
+button{
+    height: 25px;
+    min-width: 80px;
+}
+
