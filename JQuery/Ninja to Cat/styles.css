@@ -1,0 +1,16 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 900px;
+    min-height: 400px;
+    border: 1px solid black;
+}
+
+img{
+    display: block;
+    margin-bottom: 2px;
+}
