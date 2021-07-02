@@ -1,0 +1,11 @@
+
+ mkdir test
+ ni index.html
+ ni styles.css
+ git init 
+ git add .\index.html
+ git add .\styles.css
+ git commit -m "Test"
+ gh repo create 
+ git revert 6c69020  
+ 
